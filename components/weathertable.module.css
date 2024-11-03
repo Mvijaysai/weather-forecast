@@ -1,0 +1,51 @@
+.tableContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 18px;
+  }
+  
+  .weatherCard {
+    width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .date {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .tempSection {
+    background-color: #f0f0f0;
+    padding: 5px;
+  }
+  
+  .tempRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+  }
+  
+  .infoRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+  }
+  .loader {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    color: #ff6600;
+  }
+
+  
+.search {
+    width: 30%;
+}
